@@ -1,0 +1,27 @@
+title: "Orlando Raola – Teaching Portfolio"
+description: "Courses, syllabi, resources, publications."
+theme: minima
+
+url: "https://oraola.github.io"
+baseurl: "/portfolio"
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+header_pages:
+  - index.md
+  - courses.md
+  - resources.md
+  - publications.md
+  - about.md
+  - cv.md
+  - contact.md
+
+collections:
+  courses:
+    output: true
+    permalink: /courses/:name/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
